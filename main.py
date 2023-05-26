@@ -6,7 +6,7 @@ codigo_peca = 000
 #Função para cadastrar peças
 def cadastrarPeca(codigo):
     print('Bem-vindo ao menu de Cadastrar Peças')
-    print('Código da Peça {}' .format(codigo))
+    print('Código da Peça {:03d}' .format(codigo))
     nome = input('Entre com o nome da peça: ')
     fabricante = input('Entre com o fabricante da peça: ')
     valor = float(input('Entre com o valor(R$) da peça: '))
