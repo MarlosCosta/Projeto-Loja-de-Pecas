@@ -1,12 +1,12 @@
 #Atividade 04 de 04 do Trabalho
 #Inicio das Variáveis Globais
 lista_peca = [] #lista vazia para armazenar as peças cadastradas
-codigo_peca = 0
+codigo_peca = 000
 
 #Função para cadastrar peças
 def cadastrarPeca(codigo):
     print('Bem-vindo ao menu de Cadastrar Peças')
-    print('Código do produto {}' .format(codigo))
+    print('Código da Peça {}' .format(codigo))
     nome = input('Entre com o nome da peça: ')
     fabricante = input('Entre com o fabricante da peça: ')
     valor = float(input('Entre com o valor(R$) da peça: '))
